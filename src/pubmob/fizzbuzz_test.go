@@ -2,8 +2,8 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T) {
-	actual := Hello(1)
+func TestRegularNumbersReturnThemselves(t *testing.T) {
+	actual := FizzBuzz(1)
 	expected := "1"
 
 	if actual != expected {
