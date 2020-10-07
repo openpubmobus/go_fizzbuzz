@@ -1,6 +1,8 @@
 package main
 
-func FizzBuzz(input int) string {
-	return "1"
+import "strconv"
+
+func FizzBuzz(number int) string {
+	return strconv.Itoa(number)
 }
 
